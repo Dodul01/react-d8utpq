@@ -6,13 +6,15 @@ import Surfing from './Components/Surfing.jsx';
 
 export default function App() {
   return (
-    <div>
+    <div className="container">
+      <div className="content">
       <Nav />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Surfing />}/>
         </Routes>
       </BrowserRouter>
+      </div>
     </div>
   );
 }

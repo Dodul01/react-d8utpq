@@ -1,0 +1,12 @@
+.surfing-nav{
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: gray;
+  color: white;
+}
+.balance{
+  margin: 10px;
+}
